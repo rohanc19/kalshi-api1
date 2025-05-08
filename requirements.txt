@@ -1,0 +1,4 @@
+flask
+feedparser
+google-generativeai
+cachetools
