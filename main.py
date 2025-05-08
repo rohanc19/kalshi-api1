@@ -7,7 +7,8 @@ from cachetools import TTLCache
 import google.generativeai as genai
 
 app = Flask(__name__)
-genai.configure(api_key="YOUR_GEMINI_API_KEY")
+genai.configure(api_key="AIzaSyBN0Qy5EntYugosIKSoxxCY3xlwJ-NIMCE")
+
 
 cache = TTLCache(maxsize=1, ttl=1800)
 
